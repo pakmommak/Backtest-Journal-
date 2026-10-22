@@ -1,7 +1,9 @@
-BACKTEST JOURNAL — PREMIUM MATTE BLACK / BRONZE / SILVER
+BACKTEST JOURNAL BULL — PWA ID FIX v8
 
-Upload every file in this folder to the root of your GitHub Pages repository, keeping the exact names: index.html, manifest.json, sw.js, icon-192.png, icon-512.png.
+This package gives the app a distinct PWA identity and a unique service-worker cache name to reduce collisions with previously installed apps.
 
-Features: editable records; technique field supports free typing and suggests หมูเด้ง, ไม้รวย, ในกรอบ, ตามเจ้า, ภูเขา, sideway; EMA 200 True/False; Save waits for database transaction completion; JSON import with duplicate checks; bulk delete; up to 3 images; filters and analytics; PWA install files.
+Upload ALL files to the ROOT of the new GitHub Pages repository (not inside a subfolder): index.html, manifest.json, sw.js, icon-192.png, icon-512.png, README.txt.
 
-Import accepts JSON backups exported by Backtest Journal. Records are stored locally in this browser/device. Export a JSON backup before clearing browser data or changing devices.
+After deployment: open the exact new GitHub Pages URL in Chrome; confirm the site loads; then install from Chrome. If an older broken Backtest Bull icon already exists, remove only that broken shortcut/app after exporting any local data, reload the site, then install again.
+
+This package changes the PWA identity and service worker, but cannot verify Android installation until deployed to the user's actual GitHub Pages URL.

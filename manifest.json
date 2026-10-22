@@ -1,13 +1,13 @@
 {
-  "name": "Backtest Journal — Bull Edition",
+  "name": "Backtest Journal Bull — Matte Bronze Silver",
   "short_name": "Backtest Bull",
   "description": "Private multi-timeframe backtest journal",
-  "start_url": "./index.html",
+  "start_url": "./index.html?launch=backtest-bull-v8",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#090909",
-  "theme_color": "#171717",
+  "theme_color": "#b8babe",
   "icons": [
     {
       "src": "./icon-192.png",
@@ -21,5 +21,10 @@
       "type": "image/png",
       "purpose": "any"
     }
+  ],
+  "id": "./?app=backtest-bull-v8",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
   ]
 }
