@@ -2,11 +2,12 @@
   "id": "./",
   "name": "Backtest Journal",
   "short_name": "Backtest Journal",
-  "description": "Backtest Journal — private trading system testing and analysis",
+  "description": "Backtest Journal \u2014 private trading system testing and analysis",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#07111e",
+  "orientation": "portrait",
+  "background_color": "#090909",
   "theme_color": "#07111e",
   "icons": [
     {
@@ -21,5 +22,6 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "screenshots": []
 }
